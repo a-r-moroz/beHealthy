@@ -13,6 +13,13 @@
 		8E66AB542899A089005CF57C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E66AB522899A089005CF57C /* Main.storyboard */; };
 		8E66AB562899A089005CF57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E66AB552899A089005CF57C /* Assets.xcassets */; };
 		8E66AB592899A089005CF57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E66AB572899A089005CF57C /* LaunchScreen.storyboard */; };
+		8E66AB612899A8A3005CF57C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66AB602899A8A3005CF57C /* TabBarController.swift */; };
+		8E66AB6C2899AEBE005CF57C /* PillsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66AB6A2899AEBE005CF57C /* PillsController.swift */; };
+		8E66AB6D2899AEBE005CF57C /* PillsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E66AB6B2899AEBE005CF57C /* PillsController.xib */; };
+		8E66AB702899AEE3005CF57C /* ExercisesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66AB6E2899AEE3005CF57C /* ExercisesController.swift */; };
+		8E66AB712899AEE3005CF57C /* ExercisesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E66AB6F2899AEE3005CF57C /* ExercisesController.xib */; };
+		8E66AB742899AEF5005CF57C /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66AB722899AEF5005CF57C /* ProfileController.swift */; };
+		8E66AB752899AEF5005CF57C /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E66AB732899AEF5005CF57C /* ProfileController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		8E66AB552899A089005CF57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E66AB582899A089005CF57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E66AB5A2899A089005CF57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E66AB602899A8A3005CF57C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8E66AB6A2899AEBE005CF57C /* PillsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsController.swift; sourceTree = "<group>"; };
+		8E66AB6B2899AEBE005CF57C /* PillsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PillsController.xib; sourceTree = "<group>"; };
+		8E66AB6E2899AEE3005CF57C /* ExercisesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesController.swift; sourceTree = "<group>"; };
+		8E66AB6F2899AEE3005CF57C /* ExercisesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExercisesController.xib; sourceTree = "<group>"; };
+		8E66AB722899AEF5005CF57C /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		8E66AB732899AEF5005CF57C /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 		8E66AB4B2899A089005CF57C /* beHealthy */ = {
 			isa = PBXGroup;
 			children = (
+				8E66AB622899A999005CF57C /* ViewControllers */,
 				8E66AB4C2899A089005CF57C /* AppDelegate.swift */,
 				8E66AB4E2899A089005CF57C /* SceneDelegate.swift */,
 				8E66AB502899A089005CF57C /* ViewController.swift */,
@@ -63,8 +78,46 @@
 				8E66AB552899A089005CF57C /* Assets.xcassets */,
 				8E66AB572899A089005CF57C /* LaunchScreen.storyboard */,
 				8E66AB5A2899A089005CF57C /* Info.plist */,
+				8E66AB602899A8A3005CF57C /* TabBarController.swift */,
 			);
 			path = beHealthy;
+			sourceTree = "<group>";
+		};
+		8E66AB622899A999005CF57C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E66AB652899A9DA005CF57C /* ProfileController */,
+				8E66AB642899A9C2005CF57C /* ExercisesController */,
+				8E66AB632899A99F005CF57C /* PillsController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8E66AB632899A99F005CF57C /* PillsController */ = {
+			isa = PBXGroup;
+			children = (
+				8E66AB6A2899AEBE005CF57C /* PillsController.swift */,
+				8E66AB6B2899AEBE005CF57C /* PillsController.xib */,
+			);
+			path = PillsController;
+			sourceTree = "<group>";
+		};
+		8E66AB642899A9C2005CF57C /* ExercisesController */ = {
+			isa = PBXGroup;
+			children = (
+				8E66AB6E2899AEE3005CF57C /* ExercisesController.swift */,
+				8E66AB6F2899AEE3005CF57C /* ExercisesController.xib */,
+			);
+			path = ExercisesController;
+			sourceTree = "<group>";
+		};
+		8E66AB652899A9DA005CF57C /* ProfileController */ = {
+			isa = PBXGroup;
+			children = (
+				8E66AB722899AEF5005CF57C /* ProfileController.swift */,
+				8E66AB732899AEF5005CF57C /* ProfileController.xib */,
+			);
+			path = ProfileController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +178,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E66AB6D2899AEBE005CF57C /* PillsController.xib in Resources */,
+				8E66AB752899AEF5005CF57C /* ProfileController.xib in Resources */,
 				8E66AB592899A089005CF57C /* LaunchScreen.storyboard in Resources */,
+				8E66AB712899AEE3005CF57C /* ExercisesController.xib in Resources */,
 				8E66AB562899A089005CF57C /* Assets.xcassets in Resources */,
 				8E66AB542899A089005CF57C /* Main.storyboard in Resources */,
 			);
@@ -138,9 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E66AB742899AEF5005CF57C /* ProfileController.swift in Sources */,
 				8E66AB512899A089005CF57C /* ViewController.swift in Sources */,
+				8E66AB702899AEE3005CF57C /* ExercisesController.swift in Sources */,
+				8E66AB6C2899AEBE005CF57C /* PillsController.swift in Sources */,
 				8E66AB4D2899A089005CF57C /* AppDelegate.swift in Sources */,
 				8E66AB4F2899A089005CF57C /* SceneDelegate.swift in Sources */,
+				8E66AB612899A8A3005CF57C /* TabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
